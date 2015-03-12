@@ -1,8 +1,10 @@
 === Beeliked Microsite Plugin ===
-Contributors: thyagotc
+Contributors: Beeliked, thyagotc
 Tags: beeliked, campaign, competition, promotion, iframe, embed, plugin
+Requires at least: 2.0
 Tested up to: 4.1.1
 Stable tag: trunk
+License: GPLv2 or later
 
 Allows the embed of a BeeLiked microsite into post or pages using an iframe.
 
