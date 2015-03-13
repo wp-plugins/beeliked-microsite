@@ -31,7 +31,7 @@ Instructions for installing Wordpress plugin
 
 **Step 1 - Install**
 
-1. Download the 'BeeLiked Microsite' WordPress plugin by clicking the download link below. (or search for it in WordPress and Install);
+1. Download the 'BeeLiked Microsite' WordPress plugin by clicking the download link above (or search for it in WordPress and Install);
 2. Login to your WordPress admin console account and find 'Plugin' in the menu. Click 'Add Plugin';
 3. Upload the 'BeeLiked Microsite' plugin by clicking choose file and browsing to the saved file.;
 4. Click 'Install now'.
