@@ -3,7 +3,7 @@
 Plugin Name: Beeliked Microsite
 Plugin URI: http://beeliked.com
 Description: Allows the insertion of code to display a BeeLiked microsite within an iframe. The tag to insert the code is: <code>[BEELIKED_MICROSITE]</code>, containing url, width, height and autosize parameters.
-Version: 1.0.2
+Version: 1.0.3
 Author: Beeliked
 Author URI: http://beeliked.com
 License: GPLv2 or later
