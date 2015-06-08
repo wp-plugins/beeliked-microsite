@@ -31,6 +31,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 1.0   - Initial release
 1.0.1 - Documentation change
 1.0.2 - Updated iFrame Resizer parameters to fix some campaign issues related to modal opening and IE10
+1.0.3 - Updated iFrame Resizer script to version 2.8.6 (2015-04-06) and enabled public methods
 */
 
 include (dirname (__FILE__).'/plugin.php');
@@ -120,7 +121,7 @@ class BeelikedMicrosite extends BeelikedMicrosite_Plugin
 		$this->iframeId++;
 		$return = "<iframe load-url=\"{$atts['url']}\" id=\"bee-microsite-iframe-{$this->iframeId}\" class=\"bee-microsite-iframe\" width=\"{$atts['width']}\" height=\"{$atts['height']}\" data-autosize=\"{$autosize}\" frameborder=\"0\"></iframe>
 <script type=\"text/javascript\" src=\"http://beta.beeliked.com/microsite/js/beeliked.clientIframe.js\"></script>
-<script type=\"text/javascript\">jQuery(document).ready(function() { jQuery('.bee-microsite-iframe[data-autosize=1]').iFrameResize({heightCalculationMethod : (navigator.userAgent.indexOf('MSIE') !== -1) ? 'max' : 'lowestElement', minSize: 100, checkOrigin: false}); });</script>";
+<script type=\"text/javascript\">jQuery(document).ready(function() { jQuery('.bee-microsite-iframe[data-autosize=1]').iFrameResize({heightCalculationMethod : (navigator.userAgent.indexOf('MSIE') !== -1) ? 'max' : 'lowestElement', minSize: 100, checkOrigin: false, enablePublicMethods: true}); });</script>";
 		return $return;
 	}
 }
